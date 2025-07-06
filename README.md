@@ -5,38 +5,6 @@ GrowthAI Assignment simulates a local business SEO dashboard using **React 19 (V
 
 ---
 
-## 📁 Folder Structure
-
-```
-📦 GrowthAI
-
-── 📁Back-end                  → Express.js backend server
-│   ├── index.js               → Entry point & API logic
-│   ├── package.json           → Backend dependencies
-│   └── package-lock.json
-│
-
-── 📁Front-end
-│   └── 📁GrowthAI-Assignment   → Vite + React 19 frontend
-│       ├── public/            → Static assets
-│       ├── src/
-│       │   ├── assets/        → Images, icons, etc.
-│       │   ├── components/
-│       │   │   ├── BusinessDashboard/
-│       │   │   └── LoginForm/
-│       │   ├── context/       → React Context for business data
-│       │   ├── App.jsx
-│       │   ├── main.jsx
-│       ├── index.html
-│       ├── vite.config.js
-│       └── package.json
-│
-├── .gitignore
-└── README.md
-```
-
----
-
 ## 🧩 Tech Stack
 
 ### ✅ Frontend
