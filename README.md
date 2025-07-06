@@ -1,12 +1,116 @@
-# React + Vite
+```markdown
+# 🚀 GrowthAI Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GrowthAI Assignment simulates a local business SEO dashboard using **React 19 (Vite + Tailwind CSS)** on the frontend and **Node.js + Express** on the backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Folder Structure
 
-## Expanding the ESLint configuration
+```
+📦 GrowthAI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+── 📁Back-end                  → Express.js backend server
+│   ├── index.js               → Entry point & API logic
+│   ├── package.json           → Backend dependencies
+│   └── package-lock.json
+│
+
+── 📁Front-end
+│   └── 📁GrowthAI-Assignment   → Vite + React 19 frontend
+│       ├── public/            → Static assets
+│       ├── src/
+│       │   ├── assets/        → Images, icons, etc.
+│       │   ├── components/
+│       │   │   ├── BusinessDashboard/
+│       │   │   └── LoginForm/
+│       │   ├── context/       → React Context for business data
+│       │   ├── App.jsx
+│       │   ├── main.jsx
+│       ├── index.html
+│       ├── vite.config.js
+│       └── package.json
+│
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🧩 Tech Stack
+
+### ✅ Frontend
+
+- **React 18**
+- **Vite**
+- **Tailwind CSS v4**
+- **React Router v7**
+- **React Loader Spinner**
+- **Lucide Icons**
+
+### ✅ Backend
+
+- **Express v5**
+- **CORS**
+- **Nodemon** (for dev auto-reload)
+
+---
+
+## 🛠️ Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/growthai-app.git
+cd growthai-app
+```
+
+---
+
+### 2️⃣ Install & Run Backend
+
+```bash
+cd Back-end
+npm install
+node index.js    # or: nodemon index.js
+```
+
+> Server runs at: [https://growthproai-backend-1-h66o.onrender.com]
+
+---
+
+### 3️⃣ Install & Run Frontend
+
+```bash
+cd Front-end/GrowthAI-Assignment
+npm install
+npm run dev
+```
+
+> Frontend runs at: [https://growth-pro-ai-frontnd.vercel.app/]
+
+---
+
+## ⚙️ NPM Scripts
+
+### 📦 Frontend
+
+| Script            | Description                      |
+| ----------------- | -------------------------------- |
+| `npm run dev`     | Start Vite dev server            |
+| `npm run build`   | Build production frontend        |
+
+### 🧪 Backend
+
+| Script             | Description             |
+| ------------------ | ----------------------- |
+| `node index.js`    | Run backend server      |
+| `nodemon index.js` | Auto-restart on changes |
+
+---
+
+## 👤 Author
+
+**Venkateswara Reddy Challa**
+🔗 [LinkedIn](https://www.linkedin.com/in/venkateswara-reddy-challa/)
+💻 [GitHub](https://github.com/venkateswara4neco)
